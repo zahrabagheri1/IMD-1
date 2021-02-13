@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <title>employment form</title>
+</head>
+<body class="background">
+    <header class="header">
+        <label class="text">Search:
+            <input class="search" type="search" placeholder="what do you want??">
+        </label><br><br>
+
+        <div class="head">Employment form</div>
+    </header>
+    <fieldset>
+        <legend class="text2">fill in the blanks</legend>
+        
+        <div class="mid">
+            <form action="reg.php" method="get" autocomplete="off">
+                <p>Name<sup class="star">*</sup>
+                <br><br>
+                <div class="mid2">
+                    <label >Frist Name:
+                        <input type="text" title="name" placeholder="frist name" id="n" tabindex="1" required>
+                    </label>
+
+                    <label >Midlle Name:
+                        <input type="text" title="name" placeholder="midlle name" id="n" tabindex="1">
+                    </label><br><br>
+
+                    <label >Last Name:
+                        <input type="text" title="name" placeholder="last name" id="n" tabindex="1" required>
+                    </label><br><br>
+                </div>
+
+                <p>Date birth<sup class="star">*</sup></p>
+                <div class="mid2">
+                    <label for="">birthday:
+                        <input type="date" required>
+                    </label><br><br>
+                </div>
+
+                <p>Phone number<sup class="star">*</sup></p>
+                <div class="mid2">
+                    <label >Area code:
+                        <input type="tel" placeholder="number" required>
+                    </label>
+
+                    <label >phone number:
+                        <input type="tel" placeholder="number" required>
+                    </label><br><br>
+                </div>
+
+                <p>E-mail Address<sup class="star">*</sup></p>
+                <div class="mid2">
+                    <label >Email:
+                        <input type="email" placeholder="******@gmail.com" tabindex="2">
+                    </label><br><br>
+                </div>
+
+                <p>How were you referred to us??<sup class="star">*</sup></p>
+                <div class="mid2">
+                    <per>
+                        <label>
+                            <input type="checkbox">Employment   
+                            <input type="checkbox">Linked in
+                        </label><br><br>
+
+                        <label>
+                            <input type="checkbox">Newspaper   
+                            <input type="checkbox">Facebook  
+                        </label><br><br>
+
+                        <label>
+                            <input type="checkbox">Twitter
+                            <input type="checkbox">Instgram
+                        </label><br><br>
+                        
+                        <label>
+                            <input type="checkbox">Others
+                        </label>
+                    </per>
+                </div>
+
+                <p>Address<sup class="star">*</sup></p>
+                <div class="mid2">
+                    <label>Country :
+                        <input type="address" placeholder="your country" required>
+                    </label>
+                    <label>City :
+                        <input type="address" placeholder="your country" required>
+                    </label>
+                    <label>Street :
+                        <input type="address" placeholder="your country" required>
+                    </label><br><br>
+                    <label>Zip code :
+                        <input type="address" placeholder="your country" required>
+                    </label><br><br>
+                </div>
+
+                <p>Upload your photo<sup class="star">*</sup></p>
+                <div class="mid2">
+                    <label for="">Upload: </label><input type="file"><br>
+                </div>
+
+                <div >
+                    <button  class="submit" type="button">
+                        submit
+                    </button>
+                </div>
+
+            </form>
+            
+        </div>
+    </fieldset>
+</body>
+</html>
